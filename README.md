@@ -17,13 +17,13 @@ https://github.com/sehraf/d1-riscv-arch-image-builder
 
 # Wiki
 
-## Archriscv
+## [Archriscv](https://archriscv.felixc.at/) rootfs
 Default login `root` and password `archriscv`  
 > **Warning:** After install you need to **arch-chroot** into new system and install some packages like **networkmanager** and etc.
 
 <br>
 
-## Leds
+## Leds gpio
 
 ### Green led onboard
 brightness 0-1
@@ -31,7 +31,7 @@ brightness 0-1
 echo 1 > /sys/class/leds/green\:status/brightness
 ```
 
-### RGB led on dock
+### SPI RGB led on dock
 brightness 0-255  
 ```console
 echo "255" > /sys/class/leds/rgb\:status/brightness
