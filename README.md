@@ -3,7 +3,7 @@ LicheeRV D1 Kernel and U-Boot
 
 Big thanks for [Samuel Holland](https://github.com/smaeul) and [Sehraf](https://github.com/sehraf)  
 
-<img width="50%" src="https://github.com/miloserdev/sunxi_licheerv/assets/37951044/720b4211-3f5c-44bc-b383-5576c6b86656"/>  
+<img width="50%" src="https://github.com/miloserdev/sunxi_licheerv/assets/37951044/ad53bdae-f334-47b5-8f4e-e6c8a612bcac"/>  
 
 <br><br>
 
