@@ -3,7 +3,7 @@ LicheeRV D1 Kernel and U-Boot
 
 Big thanks for [Samuel Holland](https://github.com/smaeul) and [Sehraf](https://github.com/sehraf)  
 
-<img width="50%" src="https://github.com/miloserdev/sunxi_licheerv/assets/37951044/ad53bdae-f334-47b5-8f4e-e6c8a612bcac"/>  
+<img width="100%" src="https://github.com/miloserdev/sunxi_licheerv/assets/37951044/ad53bdae-f334-47b5-8f4e-e6c8a612bcac"/>  
 
 <br><br>
 
@@ -11,17 +11,25 @@ Big thanks for [Samuel Holland](https://github.com/smaeul) and [Sehraf](https://
 https://github.com/miloserdev/linux_sunxi_licheerv  
 https://github.com/miloserdev/u-boot_sunxi_licheerv  
 https://github.com/sehraf/d1-riscv-arch-image-builder  
+https://archriscv.felixc.at/
+<br><br>
 
+# Install
+
+```console
+git clone https://github.com/miloserdev/sunxi_licheerv.git
+cd ./sunxi_licheerv
+./create_sd.sh /dev/mmcblk0
+```
+  
+> **After install:** you may install some packages like **NetworkManager** and etc.  
+  
+Default login `root` and password `archriscv`  
+  
 
 <br><br>
 
 # Wiki
-
-## [Archriscv](https://archriscv.felixc.at/) rootfs
-Default login `root` and password `archriscv`  
-> **Warning:** After install you need to **arch-chroot** into new system and install some packages like **networkmanager** and etc.
-
-<br>
 
 ## Leds gpio
 
