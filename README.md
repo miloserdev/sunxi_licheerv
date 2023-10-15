@@ -45,7 +45,7 @@ brightness 0-255
 echo "255" > /sys/class/leds/rgb\:status/brightness
 ```
 
-R G B 0-255 0-255 0-255  
+R G B `0-255 0-255 0-255` 
 ```console
 echo "10 10 10" > /sys/class/leds/rgb\:status/multi_intensity  
 ```
