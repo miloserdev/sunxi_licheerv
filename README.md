@@ -1,4 +1,4 @@
-# Sunxi LicheeRV D1
+# Sunxi LicheeRV D1  
 LicheeRV D1 Kernel and U-Boot  
 
 Big thanks for [Samuel Holland](https://github.com/smaeul) and [Sehraf](https://github.com/sehraf)  
