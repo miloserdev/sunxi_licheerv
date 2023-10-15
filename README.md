@@ -54,7 +54,7 @@ echo "10 10 10" > /sys/class/leds/rgb\:status/multi_intensity
 
 ## 1.14 inch st7789v Display
 > Requires fbida package  
-Show image  
+Show image on the display  
 ```console
 fbi -d /dev/fb0 -T 1 -noverbose -a ./riscv.jpg
 ```
