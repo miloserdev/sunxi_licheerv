@@ -34,13 +34,13 @@ Default login `root` and password `archriscv`
 ## Leds gpio
 
 ### Green led onboard
-brightness 0-1
+brightness `0-1`
 ```console
 echo 1 > /sys/class/leds/green\:status/brightness
 ```
 
 ### SPI ws2812 RGB led on dock
-brightness 0-255  
+brightness `0-255`  
 ```console
 echo "255" > /sys/class/leds/rgb\:status/brightness
 ```
