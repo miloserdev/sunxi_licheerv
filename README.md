@@ -39,7 +39,7 @@ brightness 0-1
 echo 1 > /sys/class/leds/green\:status/brightness
 ```
 
-### SPI RGB led on dock
+### SPI ws2812 RGB led on dock
 brightness 0-255  
 ```console
 echo "255" > /sys/class/leds/rgb\:status/brightness
@@ -52,7 +52,7 @@ echo "10 10 10" > /sys/class/leds/rgb\:status/multi_intensity
 
 <br>
 
-## 1.14 inch Display
+## 1.14 inch st7789v Display
 Show image
 ```console
 fbi -d /dev/fb0 -T 1 -noverbose -a ./riscv.jpg
